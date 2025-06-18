@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmli6l4qbclf5"]
+
+[ext_resource type="PackedScene" uid="uid://bucjmr5dt3ciy" path="res://menu.tscn" id="1_wbu3w"]
+
+[node name="zalupatest" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 384.739
+offset_top = 410.113
+offset_right = 424.739
+offset_bottom = 433.113
+theme_override_font_sizes/font_size = 50
+text = "TESTIN"
+
+[node name="Menu" parent="." instance=ExtResource("1_wbu3w")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.0
+offset_left = 362.0
+offset_top = 1328.0
+offset_right = 362.0
+offset_bottom = 1328.0
+grow_vertical = 1

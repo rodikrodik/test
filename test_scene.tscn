@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://byscmr5uxfesg"]
+
+[ext_resource type="PackedScene" uid="uid://kffshbje5xw" path="res://girl_character.tscn" id="1_ia1lp"]
+[ext_resource type="PackedScene" uid="uid://be72q57ncupna" path="res://buttons.tscn" id="2_sasra"]
+
+[node name="Test scene" type="Node2D"]
+
+[node name="GirlCharacter" parent="." instance=ExtResource("1_ia1lp")]
+position = Vector2(348, 577)
+
+[node name="buttons" parent="." instance=ExtResource("2_sasra")]

@@ -1,0 +1,418 @@
+[gd_scene load_steps=21 format=3 uid="uid://bucjmr5dt3ciy"]
+
+[ext_resource type="Script" uid="uid://b3kb7ooh76d3s" path="res://menu.gd" id="1_lti8b"]
+[ext_resource type="Texture2D" uid="uid://d3y62my7eexul" path="res://аниме телка ассет/Костюм/Hoodie 1.png" id="2_gd0jp"]
+[ext_resource type="Texture2D" uid="uid://bq8dio4wtd0u3" path="res://аниме телка ассет/Костюм/Pajama.png" id="3_4ndjb"]
+[ext_resource type="Texture2D" uid="uid://baimonr7gxnfq" path="res://аниме телка ассет/Костюм/PE uniform.png" id="4_3ls4m"]
+[ext_resource type="Texture2D" uid="uid://dq80f5dj4e25u" path="res://аниме телка ассет/Костюм/seifuku 1.png" id="5_5h80m"]
+[ext_resource type="Texture2D" uid="uid://dnhsbnv5hinve" path="res://аниме телка ассет/Костюм/Sswimsuit.png" id="6_w25hu"]
+[ext_resource type="FontFile" uid="uid://ds0ojbjt2arm5" path="res://PequenaNeo-Regular.ttf" id="7_4ndjb"]
+[ext_resource type="Texture2D" uid="uid://bc3gkjqa7g2pg" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Blond.png" id="7_td6mg"]
+[ext_resource type="Texture2D" uid="uid://cafr5v7c3uwpw" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Brown.png" id="8_guify"]
+[ext_resource type="Texture2D" uid="uid://8ihh05cdrcop" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Dark.png" id="9_oil5j"]
+[ext_resource type="Texture2D" uid="uid://30mreh1dpkcu" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Pink.png" id="10_8uog0"]
+[ext_resource type="Texture2D" uid="uid://cjontq0pw04nn" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Silver.png" id="11_k5x1w"]
+[ext_resource type="Texture2D" uid="uid://cc6y3voau7pf2" path="res://аниме телка ассет/Аксесуары/Black Glasses.png" id="12_rkpqm"]
+[ext_resource type="Texture2D" uid="uid://c8i8i645hg7vq" path="res://аниме телка ассет/Аксесуары/Choker.png" id="13_7wriu"]
+[ext_resource type="Texture2D" uid="uid://dfgdoeqbd0802" path="res://аниме телка ассет/Аксесуары/Circle Glasses.png" id="14_xhgcl"]
+[ext_resource type="Texture2D" uid="uid://dgpqtm6fod0cr" path="res://аниме телка ассет/Аксесуары/Flower.png" id="15_8tnp7"]
+[ext_resource type="Texture2D" uid="uid://p2y07xipuq8q" path="res://аниме телка ассет/Аксесуары/Red Glasses.png" id="16_rlonj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3ls4m"]
+bg_color = Color(0.8, 0.478431, 0.666667, 0.505882)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5h80m"]
+bg_color = Color(0.8, 0.478431, 0.666667, 0.505882)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w25hu"]
+bg_color = Color(0.8, 0.478431, 0.666667, 0.505882)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lti8b")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_bottom = 150
+
+[node name="menu_screen" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 150
+
+[node name="Actions" type="Button" parent="MarginContainer/menu_screen"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Действия"
+
+[node name="Clothes" type="Button" parent="MarginContainer/menu_screen"]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Одежда"
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Customization" type="Control" parent="MarginContainer2"]
+layout_mode = 2
+
+[node name="Hoodie" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -363.0
+offset_top = -593.0
+offset_right = -225.0
+offset_bottom = -455.0
+grow_vertical = 2
+icon = ExtResource("2_gd0jp")
+expand_icon = true
+
+[node name="Pajama" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -219.0
+offset_top = -593.0
+offset_right = -81.0
+offset_bottom = -455.0
+grow_vertical = 2
+icon = ExtResource("3_4ndjb")
+expand_icon = true
+
+[node name="Uniform" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -593.0
+offset_right = 63.0
+offset_bottom = -455.0
+grow_vertical = 2
+icon = ExtResource("4_3ls4m")
+expand_icon = true
+
+[node name="Seifuku" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 71.0
+offset_top = -593.0
+offset_right = 209.0
+offset_bottom = -455.0
+grow_vertical = 2
+icon = ExtResource("5_5h80m")
+expand_icon = true
+
+[node name="Swimsuit" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 217.0
+offset_top = -593.0
+offset_right = 355.0
+offset_bottom = -455.0
+grow_vertical = 2
+icon = ExtResource("6_w25hu")
+expand_icon = true
+
+[node name="Clothes" type="Label" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -82.5
+offset_top = -648.0
+offset_right = 76.5
+offset_bottom = -593.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("7_4ndjb")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_3ls4m")
+text = "Одежда"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Accessory" type="Label" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -272.0
+offset_right = 114.0
+offset_bottom = -217.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("7_4ndjb")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_5h80m")
+text = "Аксессуары"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hair" type="Label" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -101.0
+offset_top = -455.0
+offset_right = 95.0
+offset_bottom = -400.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("7_4ndjb")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_w25hu")
+text = "Прическа"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Blondie" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -363.0
+offset_top = -402.0
+offset_right = -225.0
+offset_bottom = -264.0
+grow_vertical = 2
+icon = ExtResource("7_td6mg")
+expand_icon = true
+
+[node name="Brown" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -219.0
+offset_top = -402.0
+offset_right = -81.0
+offset_bottom = -264.0
+grow_vertical = 2
+icon = ExtResource("8_guify")
+expand_icon = true
+
+[node name="Dark" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -402.0
+offset_right = 63.0
+offset_bottom = -264.0
+grow_vertical = 2
+icon = ExtResource("9_oil5j")
+expand_icon = true
+
+[node name="Pink" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 71.0
+offset_top = -402.0
+offset_right = 209.0
+offset_bottom = -264.0
+grow_vertical = 2
+icon = ExtResource("10_8uog0")
+expand_icon = true
+
+[node name="Silver" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 217.0
+offset_top = -402.0
+offset_right = 355.0
+offset_bottom = -264.0
+grow_vertical = 2
+icon = ExtResource("11_k5x1w")
+expand_icon = true
+
+[node name="BlackGlasses" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -363.0
+offset_top = -219.0
+offset_right = -225.0
+offset_bottom = -81.0
+grow_vertical = 2
+icon = ExtResource("12_rkpqm")
+expand_icon = true
+
+[node name="Choker" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -219.0
+offset_top = -219.0
+offset_right = -81.0
+offset_bottom = -81.0
+grow_vertical = 2
+icon = ExtResource("13_7wriu")
+expand_icon = true
+
+[node name="CirlceGlasses" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -219.0
+offset_right = 63.0
+offset_bottom = -81.0
+grow_vertical = 2
+icon = ExtResource("14_xhgcl")
+expand_icon = true
+
+[node name="Flower" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 71.0
+offset_top = -219.0
+offset_right = 209.0
+offset_bottom = -81.0
+grow_vertical = 2
+icon = ExtResource("15_8tnp7")
+expand_icon = true
+
+[node name="RedGlasses" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 217.0
+offset_top = -219.0
+offset_right = 355.0
+offset_bottom = -81.0
+grow_vertical = 2
+icon = ExtResource("16_rlonj")
+expand_icon = true
+
+[node name="EXIT" type="Button" parent="MarginContainer2/Customization"]
+layout_mode = 0
+offset_left = 304.0
+offset_top = -663.0
+offset_right = 351.0
+offset_bottom = -613.0
+theme_override_font_sizes/font_size = 30
+text = "X"
+
+[node name="MarginContainer3" type="MarginContainer" parent="."]
+visible = false
+custom_minimum_size = Vector2(500, 400)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 30.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Control" type="Control" parent="MarginContainer3"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer3/Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -100.0
+offset_right = 100.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_constants/separation = 50
+
+[node name="Button" type="Button" parent="MarginContainer3/Control/VBoxContainer"]
+custom_minimum_size = Vector2(250, 80)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Покормить"
+
+[node name="Button2" type="Button" parent="MarginContainer3/Control/VBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Уложить спать"
+
+[node name="EXIT2" type="Button" parent="MarginContainer3/Control"]
+layout_mode = 0
+offset_left = 479.0
+offset_top = -25.0
+offset_right = 526.0
+offset_bottom = 25.0
+theme_override_font_sizes/font_size = 30
+text = "X"
+
+[connection signal="pressed" from="MarginContainer/menu_screen/Actions" to="." method="_on_actions_pressed"]
+[connection signal="pressed" from="MarginContainer/menu_screen/Clothes" to="." method="_on_clothes_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Hoodie" to="." method="_on_hoodie_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Pajama" to="." method="_on_pajama_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Uniform" to="." method="_on_uniform_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Seifuku" to="." method="_on_seifuku_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Swimsuit" to="." method="_on_swimsuit_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Blondie" to="." method="_on_blondie_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Brown" to="." method="_on_brown_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Dark" to="." method="_on_dark_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Pink" to="." method="_on_pink_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Silver" to="." method="_on_silver_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/BlackGlasses" to="." method="_on_black_glasses_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Choker" to="." method="_on_choker_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/CirlceGlasses" to="." method="_on_cirlce_glasses_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/Flower" to="." method="_on_flower_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/RedGlasses" to="." method="_on_red_glasses_pressed"]
+[connection signal="pressed" from="MarginContainer2/Customization/EXIT" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="MarginContainer3/Control/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="MarginContainer3/Control/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="MarginContainer3/Control/EXIT2" to="." method="_on_exit_2_pressed"]

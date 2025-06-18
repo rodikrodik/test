@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://bb35y5ou0x444"]
+
+[ext_resource type="Texture2D" uid="uid://dmd5uun6ujo80" path="res://grave.jpg" id="1_kdo1t"]
+[ext_resource type="AudioStream" uid="uid://bjpxqe5xrubj7" path="res://Похоронный марш (dubstep) Шопен (online-audio-converter.com).ogg" id="2_eo5c6"]
+
+[node name="grave" type="Node2D"]
+
+[node name="Grave" type="Sprite2D" parent="."]
+position = Vector2(31, 642)
+scale = Vector2(2.87556, 2.87556)
+texture = ExtResource("1_kdo1t")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 118.0
+offset_top = 630.0
+offset_right = 576.0
+offset_bottom = 740.0
+theme_override_colors/font_color = Color(0.745098, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 80
+text = "GAME OVER"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_eo5c6")
+volume_db = -20.0
+autoplay = true

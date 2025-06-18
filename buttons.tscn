@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://be72q57ncupna"]
+
+[ext_resource type="Script" uid="uid://07lncusol1fu" path="res://buttons.gd" id="1_pg40h"]
+
+[node name="buttons" type="Node2D"]
+script = ExtResource("1_pg40h")
+
+[node name="Smug" type="Button" parent="."]
+offset_left = 57.0
+offset_top = 882.0
+offset_right = 169.0
+offset_bottom = 964.0
+theme_override_font_sizes/font_size = 30
+text = "Smug"
+
+[node name="annoyed" type="Button" parent="."]
+offset_left = 471.0
+offset_top = 867.0
+offset_right = 583.0
+offset_bottom = 949.0
+theme_override_font_sizes/font_size = 30
+text = "Annoyed"
+
+[node name="Angry" type="Button" parent="."]
+offset_left = 268.0
+offset_top = 866.0
+offset_right = 380.0
+offset_bottom = 948.0
+theme_override_font_sizes/font_size = 30
+text = "ANGRY"
+
+[connection signal="pressed" from="Smug" to="." method="_on_smug_pressed"]
+[connection signal="pressed" from="annoyed" to="." method="_on_annoyed_pressed"]
+[connection signal="pressed" from="Angry" to="." method="_on_angry_pressed"]

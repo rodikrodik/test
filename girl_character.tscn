@@ -1,0 +1,268 @@
+[gd_scene load_steps=42 format=3 uid="uid://kffshbje5xw"]
+
+[ext_resource type="Texture2D" uid="uid://bf7ogal58cks4" path="res://аниме телка ассет/Base Body.png" id="1_2dcd7"]
+[ext_resource type="Script" uid="uid://b1ysvdv16akme" path="res://girl_character.gd" id="1_gj32r"]
+[ext_resource type="Texture2D" uid="uid://feongn5bswos" path="res://аниме телка ассет/Экспрешен/Smug.png" id="2_gj32r"]
+[ext_resource type="Texture2D" uid="uid://cc6y3voau7pf2" path="res://аниме телка ассет/Аксесуары/Black Glasses.png" id="3_2tvoc"]
+[ext_resource type="Texture2D" uid="uid://dvq3kpcf1do8p" path="res://аниме телка ассет/Экспрешен/Angry.png" id="3_xr2mh"]
+[ext_resource type="Texture2D" uid="uid://c7jx0r7uxyo5h" path="res://аниме телка ассет/Экспрешен/Annoyed.png" id="4_nfj1u"]
+[ext_resource type="Texture2D" uid="uid://dfgdoeqbd0802" path="res://аниме телка ассет/Аксесуары/Circle Glasses.png" id="4_wfjd2"]
+[ext_resource type="Texture2D" uid="uid://p2y07xipuq8q" path="res://аниме телка ассет/Аксесуары/Red Glasses.png" id="5_i4c4u"]
+[ext_resource type="Texture2D" uid="uid://b88t2v80r7o65" path="res://аниме телка ассет/Экспрешен/Delighted.png" id="5_o7e2m"]
+[ext_resource type="Texture2D" uid="uid://mu28s51l71bf" path="res://аниме телка ассет/Экспрешен/normal.png" id="6_0sd7t"]
+[ext_resource type="Texture2D" uid="uid://c8i8i645hg7vq" path="res://аниме телка ассет/Аксесуары/Choker.png" id="6_vgw0b"]
+[ext_resource type="Texture2D" uid="uid://dgpqtm6fod0cr" path="res://аниме телка ассет/Аксесуары/Flower.png" id="7_338l5"]
+[ext_resource type="Texture2D" uid="uid://cvan51l06rhj8" path="res://аниме телка ассет/Экспрешен/Sad.png" id="7_tupk4"]
+[ext_resource type="Texture2D" uid="uid://gtty7128ti5p" path="res://аниме телка ассет/Блаш/1.png" id="8_1wiwb"]
+[ext_resource type="Texture2D" uid="uid://dep8aghhgkfvn" path="res://аниме телка ассет/Экспрешен/Shocked.png" id="8_d2a23"]
+[ext_resource type="Texture2D" uid="uid://c8ov3vtxqhgpr" path="res://аниме телка ассет/Блаш/2.png" id="9_awdqk"]
+[ext_resource type="Texture2D" uid="uid://ca3eipuag6166" path="res://аниме телка ассет/Экспрешен/Sleepy.png" id="9_dsfgj"]
+[ext_resource type="Texture2D" uid="uid://dkrcxeeqenhnl" path="res://аниме телка ассет/Экспрешен/Smile 2.png" id="10_fdu3o"]
+[ext_resource type="Texture2D" uid="uid://d3y62my7eexul" path="res://аниме телка ассет/Костюм/Hoodie 1.png" id="10_l1cl3"]
+[ext_resource type="Texture2D" uid="uid://bq8dio4wtd0u3" path="res://аниме телка ассет/Костюм/Pajama.png" id="11_iw20p"]
+[ext_resource type="Texture2D" uid="uid://dsq6agxy41md8" path="res://аниме телка ассет/Экспрешен/Smile.png" id="11_moraq"]
+[ext_resource type="Texture2D" uid="uid://baimonr7gxnfq" path="res://аниме телка ассет/Костюм/PE uniform.png" id="12_678cd"]
+[ext_resource type="Texture2D" uid="uid://d3nbojsedrvvf" path="res://аниме телка ассет/Экспрешен/Laugh.png" id="12_xl3r3"]
+[ext_resource type="Texture2D" uid="uid://dq80f5dj4e25u" path="res://аниме телка ассет/Костюм/seifuku 1.png" id="13_1mxii"]
+[ext_resource type="Texture2D" uid="uid://xyelnu73pn8n" path="res://аниме телка ассет/Костюм/seifuku 2.png" id="14_l7ra0"]
+[ext_resource type="Texture2D" uid="uid://dnhsbnv5hinve" path="res://аниме телка ассет/Костюм/Sswimsuit.png" id="15_e01by"]
+[ext_resource type="Texture2D" uid="uid://xat0vtsshoaq" path="res://аниме телка ассет/Костюм/Summer Dress.png" id="16_0bad8"]
+[ext_resource type="Texture2D" uid="uid://brlb5730u7dtn" path="res://аниме телка ассет/Костюм/Towel.png" id="17_bsf6w"]
+[ext_resource type="Texture2D" uid="uid://b7c870syg62jl" path="res://аниме телка ассет/Костюм/Winter outfit.png" id="18_h8ibm"]
+[ext_resource type="Texture2D" uid="uid://bc3gkjqa7g2pg" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Blond.png" id="19_bdtwx"]
+[ext_resource type="Texture2D" uid="uid://cafr5v7c3uwpw" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Brown.png" id="20_jrek0"]
+[ext_resource type="Texture2D" uid="uid://8ihh05cdrcop" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Dark.png" id="21_35i3w"]
+[ext_resource type="Texture2D" uid="uid://30mreh1dpkcu" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Pink.png" id="22_4weuv"]
+[ext_resource type="Texture2D" uid="uid://cjontq0pw04nn" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Silver.png" id="23_g21d5"]
+[ext_resource type="Texture2D" uid="uid://pphjtnf36m7n" path="res://аниме телка ассет/Хеир бехайнд/Blondie.png" id="24_pghfv"]
+[ext_resource type="Texture2D" uid="uid://c4haijvmb3m71" path="res://аниме телка ассет/Хеир бехайнд/Brown.png" id="25_6e521"]
+[ext_resource type="Texture2D" uid="uid://ce5xx21tulb1j" path="res://аниме телка ассет/Хеир бехайнд/Dark.png" id="26_k0yyv"]
+[ext_resource type="Texture2D" uid="uid://bvhqc64wif1hk" path="res://аниме телка ассет/Хеир бехайнд/Pink.png" id="27_ljese"]
+[ext_resource type="Texture2D" uid="uid://e21qksl5phev" path="res://аниме телка ассет/Хеир бехайнд/Silver.png" id="28_ip41s"]
+[ext_resource type="Texture2D" uid="uid://dt820yiqlh7yr" path="res://hand.png" id="40_wfjd2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2tvoc"]
+
+[node name="GirlCharacter" type="Node2D"]
+script = ExtResource("1_gj32r")
+
+[node name="BaseBody" type="Sprite2D" parent="."]
+texture = ExtResource("1_2dcd7")
+
+[node name="Accessory" type="Node2D" parent="BaseBody"]
+z_index = 1
+
+[node name="Glasses" type="Node2D" parent="BaseBody/Accessory"]
+
+[node name="BlackGlasses" type="Sprite2D" parent="BaseBody/Accessory/Glasses"]
+visible = false
+position = Vector2(0, -141)
+texture = ExtResource("3_2tvoc")
+
+[node name="CircleGlasses" type="Sprite2D" parent="BaseBody/Accessory/Glasses"]
+visible = false
+position = Vector2(0, -122)
+texture = ExtResource("4_wfjd2")
+
+[node name="RedGlasses" type="Sprite2D" parent="BaseBody/Accessory/Glasses"]
+visible = false
+position = Vector2(0, -141)
+texture = ExtResource("5_i4c4u")
+
+[node name="Choker" type="Sprite2D" parent="BaseBody/Accessory"]
+visible = false
+position = Vector2(0, 40)
+texture = ExtResource("6_vgw0b")
+
+[node name="Flower" type="Sprite2D" parent="BaseBody/Accessory"]
+visible = false
+position = Vector2(176, -245)
+texture = ExtResource("7_338l5")
+
+[node name="Blush" type="Node2D" parent="BaseBody"]
+
+[node name="Blush1" type="Sprite2D" parent="BaseBody/Blush"]
+visible = false
+position = Vector2(12, -92)
+texture = ExtResource("8_1wiwb")
+
+[node name="Blush2" type="Sprite2D" parent="BaseBody/Blush"]
+visible = false
+position = Vector2(12, -92)
+texture = ExtResource("9_awdqk")
+
+[node name="Costume" type="Node2D" parent="BaseBody"]
+
+[node name="Hoodie" type="Sprite2D" parent="BaseBody/Costume"]
+position = Vector2(0, 260)
+texture = ExtResource("10_l1cl3")
+
+[node name="Pajama" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 266)
+texture = ExtResource("11_iw20p")
+
+[node name="Uniform" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 241)
+texture = ExtResource("12_678cd")
+
+[node name="Seifuku1" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 271)
+texture = ExtResource("13_1mxii")
+
+[node name="Seifuku2" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 271)
+texture = ExtResource("14_l7ra0")
+
+[node name="Swimsuit" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 277)
+texture = ExtResource("15_e01by")
+
+[node name="SummerDress" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 284)
+texture = ExtResource("16_0bad8")
+
+[node name="Towel" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 369)
+texture = ExtResource("17_bsf6w")
+
+[node name="Winteroutfit" type="Sprite2D" parent="BaseBody/Costume"]
+visible = false
+position = Vector2(0, 244)
+texture = ExtResource("18_h8ibm")
+
+[node name="Hair" type="Node2D" parent="BaseBody"]
+
+[node name="HairFront" type="Node2D" parent="BaseBody/Hair"]
+
+[node name="Blondie" type="Sprite2D" parent="BaseBody/Hair/HairFront"]
+position = Vector2(0, -218)
+texture = ExtResource("19_bdtwx")
+
+[node name="Brown" type="Sprite2D" parent="BaseBody/Hair/HairFront"]
+visible = false
+position = Vector2(0, -218)
+texture = ExtResource("20_jrek0")
+
+[node name="Dark" type="Sprite2D" parent="BaseBody/Hair/HairFront"]
+visible = false
+position = Vector2(0, -218)
+texture = ExtResource("21_35i3w")
+
+[node name="Pink" type="Sprite2D" parent="BaseBody/Hair/HairFront"]
+visible = false
+position = Vector2(0, -218)
+texture = ExtResource("22_4weuv")
+
+[node name="Silver" type="Sprite2D" parent="BaseBody/Hair/HairFront"]
+visible = false
+position = Vector2(0, -218)
+texture = ExtResource("23_g21d5")
+
+[node name="HairBehind" type="Node2D" parent="BaseBody/Hair"]
+z_index = -1
+
+[node name="Blondie" type="Sprite2D" parent="BaseBody/Hair/HairBehind"]
+position = Vector2(-13, -89)
+texture = ExtResource("24_pghfv")
+
+[node name="Brown" type="Sprite2D" parent="BaseBody/Hair/HairBehind"]
+visible = false
+position = Vector2(-13, -89)
+texture = ExtResource("25_6e521")
+
+[node name="Dark" type="Sprite2D" parent="BaseBody/Hair/HairBehind"]
+visible = false
+position = Vector2(-13, -89)
+texture = ExtResource("26_k0yyv")
+
+[node name="Pink" type="Sprite2D" parent="BaseBody/Hair/HairBehind"]
+visible = false
+position = Vector2(-13, -89)
+texture = ExtResource("27_ljese")
+
+[node name="Silver" type="Sprite2D" parent="BaseBody/Hair/HairBehind"]
+visible = false
+position = Vector2(-13, -89)
+texture = ExtResource("28_ip41s")
+
+[node name="Expression" type="Node2D" parent="BaseBody"]
+
+[node name="Smug" type="Sprite2D" parent="BaseBody/Expression"]
+position = Vector2(0, -154)
+texture = ExtResource("2_gj32r")
+
+[node name="Angry" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("3_xr2mh")
+
+[node name="Annoyed" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("4_nfj1u")
+
+[node name="Delighted" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("5_o7e2m")
+
+[node name="normal" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("6_0sd7t")
+
+[node name="Sad" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("7_tupk4")
+
+[node name="Shocked" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("8_d2a23")
+
+[node name="Sleepy" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("9_dsfgj")
+
+[node name="Smile2" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("10_fdu3o")
+
+[node name="Smile" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("11_moraq")
+
+[node name="Laugh" type="Sprite2D" parent="BaseBody/Expression"]
+visible = false
+position = Vector2(0, -154)
+texture = ExtResource("12_xl3r3")
+
+[node name="HEAD" type="Node2D" parent="."]
+
+[node name="Stroke" type="TouchScreenButton" parent="HEAD"]
+z_index = 3
+position = Vector2(0, -337)
+scale = Vector2(21.5415, 13.2416)
+shape = SubResource("CapsuleShape2D_2tvoc")
+visibility_mode = 1
+
+[node name="Hand" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(114.25, -336.75)
+scale = Vector2(0.624167, 0.624167)
+texture = ExtResource("40_wfjd2")
+flip_h = true
+
+[connection signal="pressed" from="HEAD/Stroke" to="." method="_on_stroke_pressed"]
+[connection signal="released" from="HEAD/Stroke" to="." method="_on_stroke_released"]

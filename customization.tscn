@@ -1,0 +1,275 @@
+[gd_scene load_steps=16 format=3 uid="uid://deaijwibi7o47"]
+
+[ext_resource type="Texture2D" uid="uid://d3y62my7eexul" path="res://аниме телка ассет/Костюм/Hoodie 1.png" id="1_ht2rm"]
+[ext_resource type="Texture2D" uid="uid://bq8dio4wtd0u3" path="res://аниме телка ассет/Костюм/Pajama.png" id="2_a5y3f"]
+[ext_resource type="Texture2D" uid="uid://baimonr7gxnfq" path="res://аниме телка ассет/Костюм/PE uniform.png" id="3_0oi05"]
+[ext_resource type="Texture2D" uid="uid://dq80f5dj4e25u" path="res://аниме телка ассет/Костюм/seifuku 1.png" id="4_646dr"]
+[ext_resource type="Texture2D" uid="uid://dnhsbnv5hinve" path="res://аниме телка ассет/Костюм/Sswimsuit.png" id="5_4rirj"]
+[ext_resource type="Texture2D" uid="uid://bc3gkjqa7g2pg" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Blond.png" id="6_nt5my"]
+[ext_resource type="Texture2D" uid="uid://cafr5v7c3uwpw" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Brown.png" id="7_kmqsg"]
+[ext_resource type="Texture2D" uid="uid://8ihh05cdrcop" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Dark.png" id="8_8ixrx"]
+[ext_resource type="Texture2D" uid="uid://30mreh1dpkcu" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Pink.png" id="9_knn1m"]
+[ext_resource type="Texture2D" uid="uid://cjontq0pw04nn" path="res://аниме телка ассет/Хеир фронт/твин теил шорт хеир/Silver.png" id="10_l13id"]
+[ext_resource type="Texture2D" uid="uid://cc6y3voau7pf2" path="res://аниме телка ассет/Аксесуары/Black Glasses.png" id="11_gspc3"]
+[ext_resource type="Texture2D" uid="uid://c8i8i645hg7vq" path="res://аниме телка ассет/Аксесуары/Choker.png" id="12_swl6q"]
+[ext_resource type="Texture2D" uid="uid://dfgdoeqbd0802" path="res://аниме телка ассет/Аксесуары/Circle Glasses.png" id="13_ho07b"]
+[ext_resource type="Texture2D" uid="uid://dgpqtm6fod0cr" path="res://аниме телка ассет/Аксесуары/Flower.png" id="14_lt6s4"]
+[ext_resource type="Texture2D" uid="uid://p2y07xipuq8q" path="res://аниме телка ассет/Аксесуары/Red Glasses.png" id="15_a2i4b"]
+
+[node name="Customization" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 818.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Hoodie" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -277.0
+offset_right = 138.0
+offset_bottom = -139.0
+grow_vertical = 2
+icon = ExtResource("1_ht2rm")
+expand_icon = true
+
+[node name="Pajama" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 144.0
+offset_top = -277.0
+offset_right = 282.0
+offset_bottom = -139.0
+grow_vertical = 2
+icon = ExtResource("2_a5y3f")
+expand_icon = true
+
+[node name="Uniform" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 288.0
+offset_top = -277.0
+offset_right = 426.0
+offset_bottom = -139.0
+grow_vertical = 2
+icon = ExtResource("3_0oi05")
+expand_icon = true
+
+[node name="Seifuku" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 434.0
+offset_top = -277.0
+offset_right = 572.0
+offset_bottom = -139.0
+grow_vertical = 2
+icon = ExtResource("4_646dr")
+expand_icon = true
+
+[node name="Swimsuit" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 580.0
+offset_top = -277.0
+offset_right = 718.0
+offset_bottom = -139.0
+grow_vertical = 2
+icon = ExtResource("5_4rirj")
+expand_icon = true
+
+[node name="Clothes" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -79.5
+offset_top = -332.0
+offset_right = 79.5
+offset_bottom = -277.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Одежда"
+
+[node name="Blondie" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -86.0
+offset_right = 138.0
+offset_bottom = 52.0
+grow_vertical = 2
+icon = ExtResource("6_nt5my")
+expand_icon = true
+
+[node name="Brown" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 144.0
+offset_top = -86.0
+offset_right = 282.0
+offset_bottom = 52.0
+grow_vertical = 2
+icon = ExtResource("7_kmqsg")
+expand_icon = true
+
+[node name="Dark" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 288.0
+offset_top = -86.0
+offset_right = 426.0
+offset_bottom = 52.0
+grow_vertical = 2
+icon = ExtResource("8_8ixrx")
+expand_icon = true
+
+[node name="Pink" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 434.0
+offset_top = -86.0
+offset_right = 572.0
+offset_bottom = 52.0
+grow_vertical = 2
+icon = ExtResource("9_knn1m")
+expand_icon = true
+
+[node name="Silver" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 580.0
+offset_top = -86.0
+offset_right = 718.0
+offset_bottom = 52.0
+grow_vertical = 2
+icon = ExtResource("10_l13id")
+expand_icon = true
+
+[node name="Hair" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -79.5
+offset_top = -139.0
+offset_right = 79.5
+offset_bottom = -84.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Прическа"
+
+[node name="BlackGlasses" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = 97.0
+offset_right = 138.0
+offset_bottom = 235.0
+grow_vertical = 2
+icon = ExtResource("11_gspc3")
+expand_icon = true
+
+[node name="Choker" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 144.0
+offset_top = 97.0
+offset_right = 282.0
+offset_bottom = 235.0
+grow_vertical = 2
+icon = ExtResource("12_swl6q")
+expand_icon = true
+
+[node name="CirlceGlasses" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 288.0
+offset_top = 97.0
+offset_right = 426.0
+offset_bottom = 235.0
+grow_vertical = 2
+icon = ExtResource("13_ho07b")
+expand_icon = true
+
+[node name="Flower" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 434.0
+offset_top = 97.0
+offset_right = 572.0
+offset_bottom = 235.0
+grow_vertical = 2
+icon = ExtResource("14_lt6s4")
+expand_icon = true
+
+[node name="RedGlasses" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 580.0
+offset_top = 97.0
+offset_right = 718.0
+offset_bottom = 235.0
+grow_vertical = 2
+icon = ExtResource("15_a2i4b")
+expand_icon = true
+
+[node name="Accessory" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.0
+offset_top = 44.0
+offset_right = 98.0
+offset_bottom = 99.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Аксессуары"
+
+[node name="EXIT" type="Button" parent="."]
+layout_mode = 0
+offset_left = 667.0
+offset_top = -105.0
+offset_right = 714.0
+offset_bottom = -62.0
+theme_override_font_sizes/font_size = 30
+text = "X"

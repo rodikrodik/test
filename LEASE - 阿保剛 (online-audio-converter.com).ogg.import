@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ba0cjrp0u1gpm"
+path="res://.godot/imported/LEASE - 阿保剛 (online-audio-converter.com).ogg-57892c5a0a908507418b86bf03b96e50.oggvorbisstr"
+
+[deps]
+
+source_file="res://LEASE - 阿保剛 (online-audio-converter.com).ogg"
+dest_files=["res://.godot/imported/LEASE - 阿保剛 (online-audio-converter.com).ogg-57892c5a0a908507418b86bf03b96e50.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

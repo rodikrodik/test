@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bjpxqe5xrubj7"
+path="res://.godot/imported/Похоронный марш (dubstep) Шопен (online-audio-converter.com).ogg-3906a0123df0ec51174d05d5aea8d81b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Похоронный марш (dubstep) Шопен (online-audio-converter.com).ogg"
+dest_files=["res://.godot/imported/Похоронный марш (dubstep) Шопен (online-audio-converter.com).ogg-3906a0123df0ec51174d05d5aea8d81b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
